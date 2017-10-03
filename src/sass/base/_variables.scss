@@ -1,0 +1,24 @@
+// /////////////////////////
+// @@ VARIABLES
+// ////////////////////////
+
+$main-text: #ffffff;
+$front-page-bcg: #3E93A7;
+$summits-front-bcg: #B9539F;
+$summits-odd-bcg: #E3D9E1;
+$summits-even-bcg: $summits-front-bcg;
+
+
+$aboutme-bcg: #A5CD39;
+
+$contactme-bcg: #F1D02D;
+
+// Font vars
+$font: 'Raleway', sans-serif;
+$f-weight-200: 200;
+$f-weight-300: 300;
+$f-weight-400: 400;
+$f-size: 17px;
+
+$f-color-odd: #B9539F;
+$f-color-odd-d: darken($f-color-odd, 20%);

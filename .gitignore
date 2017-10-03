@@ -1,0 +1,10 @@
+.idea/
+
+# Build Systems #
+########################
+node_modules
+src/bower_components
+docker-compose.yml
+src/bower_components/components-font-awesome/css/
+build/
+dist/
