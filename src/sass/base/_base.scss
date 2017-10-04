@@ -15,5 +15,13 @@ h1, h2 {
 }
 
 h1 {
-  font-size: 2em;
+  font-size: 1.5em;
+  margin: 5px 0;
+  @include mQueryMin(321px) {
+    font-size: 2em;
+  }
+}
+
+h2 {
+  font-size: 1.3em;
 }

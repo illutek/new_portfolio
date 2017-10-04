@@ -1,0 +1,17 @@
+//================================
+// @@ ++ FIRM NAME
+//================================
+
+.firm-name-wrap {
+  display: block;
+  &.firmname-hide {
+    display: none;
+    @include mQueryMin(1080px){
+      display: block;
+    }
+  }
+}
+
+.firm-name {
+  color: $main-text;
+}

@@ -1,0 +1,35 @@
+//================================
+// @@ ++ MENU
+//================================
+
+.menu-wrap {
+  justify-self: end;
+}
+
+.menu-show-btn {
+  display: block;
+  color: lighten($main-text, 50%);
+  &.hidden {
+    display: none;
+  }
+}
+.menu {
+  display: none;
+  li {
+    display: inline-block;
+    padding-right: 6px;
+    @include mQueryMin(321px) {
+      padding-right: 17px;
+    }
+    &:last-child {
+      padding-right: 0;
+    }
+    a {
+      text-decoration: none;
+      color: $main-text;
+    }
+  }
+  &.menu-visible {
+    display: block;
+  }
+}

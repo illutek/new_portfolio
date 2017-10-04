@@ -1,0 +1,15 @@
+//================================
+// @@ ++ HEADER
+//================================
+
+header {
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  &.hide-header-grid {
+    grid-template-columns: 1fr;
+    @include mQueryMin(1080px){
+      grid-template-columns: 1fr 3fr;
+    }
+  }
+}

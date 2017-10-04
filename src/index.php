@@ -9,10 +9,14 @@
 <body class="home">
 <div class="container">
   <header>
-    <div class="firm-name-wrap">illutek</div>
+
+    <div class="firm-name-wrap">
+      <div class="firm-name">illutek</div>
+    </div>
+
     <div class="menu-wrap">
       <div class="menu-show-btn">
-        <img src="images/menu-w45.png" alt="menu">
+        MENU
       </div>
       <div class="menu">
         <ul>
@@ -31,4 +35,6 @@
   </section>
 </div>
 </body>
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script src="js/menu.js"></script>
 </html>
