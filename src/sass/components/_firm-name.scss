@@ -6,7 +6,7 @@
   display: block;
   &.firmname-hide {
     display: none;
-    @include mQueryMin(1080px){
+    @include mQueryMin(767px){
       display: block;
     }
   }

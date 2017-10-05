@@ -6,7 +6,7 @@
   <title>Portfolio</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
-<body class="home">
+<body class="summits">
 <div class="container">
   <header>
 
@@ -30,9 +30,12 @@
     </div>
   </header>
   <section class="main-title">
-    <h1>Frontend it's a hobby</h1>
-    <h2>{it's an addiction}</h2>
+    <h1>SUMMITS</h1>
+    <h2>{Limited selection}</h2>
   </section>
+  <div class="arrow arrow-down">
+    <img src="images/white-arrow-down.png" alt="arrow down">
+  </div>
 </div>
 </body>
 <script src="bower_components/jquery/dist/jquery.min.js"></script>

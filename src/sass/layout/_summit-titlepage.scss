@@ -1,18 +1,15 @@
 //================================
-// @@ ++ HOME PAGE
+// @@ ++ SUMMIT TITLE PAGE
 //================================
 
 body {
-  &.home {
-    background: $front-page-bcg;
+  &.summits {
+    background: $summits-front-bcg;
     .container {
       display: grid;
       grid-template-columns: 1fr;
-      grid-template-rows: 50px auto;
+      grid-template-rows: 50px auto 40px;
       min-height: 100vh;
     }
   }
 }
-
-
-

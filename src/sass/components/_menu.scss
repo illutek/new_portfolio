@@ -8,7 +8,8 @@
 
 .menu-show-btn {
   display: block;
-  color: lighten($main-text, 50%);
+  color: $main-text;
+  cursor: pointer;
   &.hidden {
     display: none;
   }
@@ -19,7 +20,7 @@
     display: inline-block;
     padding-right: 6px;
     @include mQueryMin(321px) {
-      padding-right: 17px;
+      padding-right: 15px;
     }
     &:last-child {
       padding-right: 0;

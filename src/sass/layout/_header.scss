@@ -8,7 +8,7 @@ header {
   grid-template-columns: 1fr 3fr;
   &.hide-header-grid {
     grid-template-columns: 1fr;
-    @include mQueryMin(1080px){
+    @include mQueryMin(767px){
       grid-template-columns: 1fr 3fr;
     }
   }
