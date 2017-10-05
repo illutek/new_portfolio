@@ -14,4 +14,9 @@
 
 .firm-name {
   color: $main-text;
+  a {
+    color: $main-text;
+    text-decoration: none;
+  }
+
 }

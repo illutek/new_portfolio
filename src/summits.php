@@ -11,22 +11,15 @@
   <header>
 
     <div class="firm-name-wrap">
-      <div class="firm-name">illutek</div>
+      <div class="firm-name">
+        <a href="index.php">illutek</a></div>
     </div>
 
     <div class="menu-wrap">
       <div class="menu-show-btn">
         MENU
       </div>
-      <div class="menu">
-        <ul>
-          <li><a href="index.php">home</a></li>
-          <li><a href="#">contact</a></li>
-          <li><a href="summits.php">summits</a></li>
-          <li><a href="#">about me</a></li>
-          <li><a class="close-menu-btn" href="#">X</a></li>
-        </ul>
-      </div>
+      <?php include_once "partical/menu.inc.php"; ?>
     </div>
   </header>
   <section class="main-title">
@@ -37,6 +30,21 @@
     <img src="images/white-arrow-down.png" alt="arrow down">
   </div>
 </div>
+
+
+<!-- ----------------------------------
+Portfolio with include files
+
+--------------------------------------- -->
+
+<?php include_once "partical/odd.inc.php"; ?>
+
+<?php //include_once "partical/2.inc.php"; ?>
+
+<?php //include_once "partical/3.inc.php"; ?>
+
+<?php //include_once "partical/4.inc.php"; ?>
+
 </body>
 <script src="bower_components/jquery/dist/jquery.min.js"></script>
 <script src="js/menu.js"></script>

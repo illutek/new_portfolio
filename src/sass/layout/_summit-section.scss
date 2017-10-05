@@ -1,0 +1,21 @@
+//================================
+// @@ ++ SUMMITS SECTION
+//================================
+
+.summit-discription-wrap {
+  display: grid;
+  grid-template-rows: 1fr 25px;
+}
+.summit-section {
+  min-height: 100vh;
+  padding: 0 15px;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 20px 2fr 1fr 23px;
+  h1, h2 {
+    margin-top: 20px;
+  }
+  h2 {
+    margin-bottom: 20px;
+  }
+}

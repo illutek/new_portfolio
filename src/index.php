@@ -18,15 +18,7 @@
       <div class="menu-show-btn">
         MENU
       </div>
-      <div class="menu">
-        <ul>
-          <li><a href="index.php">home</a></li>
-          <li><a href="#">contact</a></li>
-          <li><a href="summits.php">summits</a></li>
-          <li><a href="#">about me</a></li>
-          <li><a class="close-menu-btn" href="#">X</a></li>
-        </ul>
-      </div>
+      <?php include_once "partical/menu.inc.php"; ?>
     </div>
   </header>
   <section class="main-title">
