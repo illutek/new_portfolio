@@ -1,9 +1,5 @@
 /**
- * Created by stefan on 22.07.17.
- * * It's best practice to wrap your code in a closure. A closure is nothing more
- * than a function that helps limit the scope of variables so you don't
- * accidentally overwrite global variables.
- * https://www.drupal.org/node/171213
+ * Created by stefan on .
  */
 (function ($) {
     $(document).ready(function () {

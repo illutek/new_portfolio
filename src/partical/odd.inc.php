@@ -5,10 +5,10 @@
  * Date: 5/10/2017
  * Time: 20:35
  */ ?>
-<section class="summit-section odd-container">
-  <div class="arrow arrow-up">
-    <img src="images/odd-arrow-up.png" alt="arrow up">
-  </div>
+<!--<section class="summit-section odd-container">-->
+<!--  <div class="arrow arrow-up">-->
+<!--    <img src="images/odd-arrow-up.png" alt="arrow up">-->
+<!--  </div>-->
 
   <div class="summit-discription-wrap">
     <div class="summit-description">
@@ -28,6 +28,7 @@
       <img src="images/sass.png" alt="sass">
       <img src="images/gulp.png" alt="gulp">
       <img src="images/drupal8.png" alt="Drupal8">
+      <img src="images/drupal7.jpg" alt="Drupal7">
 
     </div>
 
@@ -42,7 +43,7 @@
 
   </div>
 
-  <div class="arrow arrow-down">
-    <img src="images/odd-arrow-down.png" alt="arrow down">
-  </div>
-</section>
+<!--  <div class="arrow arrow-down">-->
+<!--    <img src="images/odd-arrow-down.png" alt="arrow down">-->
+<!--  </div>-->
+<!--</section>-->

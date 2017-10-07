@@ -2,5 +2,10 @@
 // @@ ++ EVEN SUMMIT SECTION
 //================================
 
-
-
+.even-container {
+  background: $summits-even-bcg;
+  color: $main-text;
+  h1, h2 {
+    color: $main-text;
+  }
+}
