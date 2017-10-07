@@ -2,20 +2,38 @@
 // @@ ++ SUMMITS SECTION
 //================================
 
-.summit-discription-wrap {
-  display: grid;
-  grid-template-rows: 1fr 25px;
-}
+
 .summit-section {
   min-height: 100vh;
   padding: 0 15px;
   display: grid;
   grid-template-columns: auto;
-  grid-template-rows: 20px 2fr 1fr 23px;
+  grid-template-rows: 20px auto 2px 1fr 23px;
   h1, h2 {
     margin-top: 20px;
   }
   h2 {
     margin-bottom: 20px;
+  }
+}
+
+.summit-discription-wrap {
+   display: grid;
+   grid-template-rows: 1fr 35px;
+ }
+
+.divider {
+  background: url("../images/odd-divider.jpg") no-repeat;
+  width: 150px;
+  margin: 0 auto;
+}
+
+
+.summit-images-wrap {
+  margin-top: 15px;
+  align-self: center;
+  img {
+    width: 100%;
+    height: auto;
   }
 }
