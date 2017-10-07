@@ -8,3 +8,4 @@ docker-compose.yml
 src/bower_components/components-font-awesome/css/
 build/
 dist/
+.directory 
