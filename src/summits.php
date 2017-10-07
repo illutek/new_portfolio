@@ -48,7 +48,7 @@ SUMMIT ONE
     <a href="#summit-top"><img src="images/odd-arrow-up.png" alt="arrow up"></a>
   </div>
 
-    <?php include_once "partical/odd.inc.php"; ?>
+    <?php include_once "partical/1.inc.php"; ?>
 
   <div class="arrow arrow-down">
     <a href="#two"><img src="images/odd-arrow-down.png" alt="arrow down"></a>
@@ -65,7 +65,7 @@ SUMMIT TWO
     <a href="#one"><img src="images/white-arrow-up.png" alt="arrow up"></a>
   </div>
 
-    <?php //include_once "partical/2.inc.php"; ?>
+    <?php include_once "partical/even.inc.php"; ?>
 
   <div class="arrow arrow-down">
     <a href="#three"><img src="images/white-arrow-down.png" alt="arrow down"></a>

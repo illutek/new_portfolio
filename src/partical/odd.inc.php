@@ -4,11 +4,8 @@
  * User: Stefan
  * Date: 5/10/2017
  * Time: 20:35
+ * Gebruik deze file als bron voor een nieuw project
  */ ?>
-<!--<section class="summit-section odd-container">-->
-<!--  <div class="arrow arrow-up">-->
-<!--    <img src="images/odd-arrow-up.png" alt="arrow up">-->
-<!--  </div>-->
 
   <div class="summit-discription-wrap">
     <div class="summit-description">
@@ -27,8 +24,9 @@
       <!-- Icons of used technology here -->
       <img src="images/sass.png" alt="sass">
       <img src="images/gulp.png" alt="gulp">
+      <img src="images/bower.png" alt="bower">
       <img src="images/drupal8.png" alt="Drupal8">
-      <img src="images/drupal7.jpg" alt="Drupal7">
+      <img src="images/drupal7.png" alt="Drupal7">
 
     </div>
 
@@ -42,8 +40,3 @@
     <img src="images/cityMobile-640W.jpg" alt="test">
 
   </div>
-
-<!--  <div class="arrow arrow-down">-->
-<!--    <img src="images/odd-arrow-down.png" alt="arrow down">-->
-<!--  </div>-->
-<!--</section>-->
