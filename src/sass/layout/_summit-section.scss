@@ -2,7 +2,6 @@
 // @@ ++ SUMMITS SECTION
 //================================
 
-
 .summit-section {
   min-height: 100vh;
   padding: 0 15px;
@@ -18,16 +17,21 @@
 }
 
 .summit-discription-wrap {
-   display: grid;
-   grid-template-rows: 1fr 35px;
- }
+  display: grid;
+  grid-template-rows: 1fr 35px;
+  a {
+    text-decoration: none;
+    &:before {
+      @extend .url-icon;
+    }
+  }
+}
 
 .divider {
   background: url("../images/odd-divider.jpg") no-repeat;
   width: 150px;
   margin: 0 auto;
 }
-
 
 .summit-images-wrap {
   margin-top: 15px;
