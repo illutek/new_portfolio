@@ -33,7 +33,7 @@
 
 </div>
 
-<div class="divider"></div>
+<!--<div class="divider"></div>-->
 
 <div class="summit-images-wrap">
 

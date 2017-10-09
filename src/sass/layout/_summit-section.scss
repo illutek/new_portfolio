@@ -7,7 +7,7 @@
   padding: 0 15px;
   display: grid;
   grid-template-columns: auto;
-  grid-template-rows: 20px auto 2px 1fr 23px;
+  grid-template-rows: 20px auto 1fr 23px;
   h1, h2 {
     margin-top: 20px;
   }
@@ -18,7 +18,18 @@
 
 .summit-discription-wrap {
   display: grid;
-  grid-template-rows: 1fr 35px;
+  grid-template-rows: 1fr 45px;
+  .summit-icons-wrap {
+    align-self: end;
+  }
+  &:after {
+    content: '';
+    width: 60%;
+    height: 1px;
+    margin: 15px auto;
+    display: block;
+    background: $color-odd;
+  }
   a {
     text-decoration: none;
     &:before {
@@ -27,11 +38,11 @@
   }
 }
 
-.divider {
-  background: url("../images/odd-divider.jpg") no-repeat;
-  width: 150px;
-  margin: 0 auto;
-}
+//.divider {
+//  background: url("../images/odd-divider.jpg") no-repeat;
+//  width: 150px;
+//  margin: 0 auto;
+//}
 
 .summit-images-wrap {
   margin-top: 15px;

@@ -22,5 +22,6 @@ $f-weight-300: 300;
 $f-weight-400: 400;
 $f-size: 17px;
 
-$f-color-odd: #B9539F;
+$f-color-odd: $summits-front-bcg;
+$color-odd: $summits-front-bcg;
 $f-color-odd-d: darken($f-color-odd, 20%);
