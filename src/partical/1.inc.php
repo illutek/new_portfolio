@@ -13,9 +13,10 @@
     <h1>Spitfireclub</h1>
     <h2><a href="https://www.spitfireclub-vlaanderen.be/">www.spitfireclub-vlaanderen.be</a></h2>
     <p>Een Drupal8 theme</p>
-    <p>Een eindwerk voor het cvo in Heusden-Zolder <a href="http://www.cvodeverdieping.be">www.cvodeverdieping.be/</a>
+    <p>Een eindwerk voor het cvo in Heusden-Zolder <a href="http://www.cvodeverdieping.be">www.cvodeverdieping.be</a>
     </p>
-    <p>In opdracht van Koen Timmers <a href="https://www.zelfstudie.be">www.zelfstudie.be/</a></p>
+    <p>In opdracht van Koen Timmers <a href="https://www.zelfstudie.be">www.zelfstudie.be</a>
+    </p>
 
   </div>
 
