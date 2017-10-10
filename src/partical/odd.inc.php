@@ -7,7 +7,7 @@
  * Gebruik deze file als bron voor een nieuw project
  */ ?>
 
-  <div class="summit-discription-wrap">
+  <div class="summit-discription-wrap odd-wrap">
     <div class="summit-description">
 
       <!-- Description of project here -->
@@ -31,8 +31,6 @@
     </div>
 
   </div>
-
-  <div class="divider"></div>
 
   <div class="summit-images-wrap">
 

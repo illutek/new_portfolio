@@ -1,0 +1,12 @@
+//================================
+// @@ ++ FUNCTIONS
+//================================
+
+// Function color
+@function set-color-text($bg-color) {
+  @if (lightness($bg-color) > 60) {
+    @return $summits-front-bcg;
+  } @else {
+    @return $main-text;
+  }
+}

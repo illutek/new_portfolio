@@ -22,14 +22,6 @@
   .summit-icons-wrap {
     align-self: end;
   }
-  &:after {
-    content: '';
-    width: 60%;
-    height: 1px;
-    margin: 15px auto;
-    display: block;
-    background: $color-odd;
-  }
   a {
     text-decoration: none;
     &:before {
@@ -38,11 +30,30 @@
   }
 }
 
-//.divider {
-//  background: url("../images/odd-divider.jpg") no-repeat;
-//  width: 150px;
-//  margin: 0 auto;
-//}
+
+.even-wrap {
+  &:after {
+    content: '';
+    width: 60%;
+    height: 1px;
+    margin: 15px auto;
+    display: block;
+    background: set-color-text($summits-even-bcg);
+   //
+  }
+}
+
+.odd-wrap {
+  &:after {
+    content: '';
+    width: 60%;
+    height: 1px;
+    margin: 15px auto;
+    display: block;
+    background: set-color-text($summits-odd-bcg);
+    //
+  }
+}
 
 .summit-images-wrap {
   margin-top: 15px;
