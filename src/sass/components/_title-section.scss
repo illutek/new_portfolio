@@ -7,3 +7,17 @@
   justify-self: center;
   align-self: center;
 }
+
+h2 {
+  &.curly {
+    font-family: 'Roboto', sans-serif;
+    &:before {
+      content: '{{';
+      margin-right: 5px;
+    }
+    &:after {
+      content: '}}';
+      margin-left: 5px;
+    }
+  }
+}

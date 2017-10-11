@@ -25,7 +25,7 @@
   </header>
   <section class="main-title">
     <h1>SUMMITS</h1>
-    <h2><span class="curly">{{</span> Limited selection <span class="curly">}}</span></h2>
+    <h2 class="curly">Limited selection</h2>
   </section>
   <div class="arrow arrow-down">
     <a href="#one"><img src="images/white-arrow-down.png" alt="arrow down"></a>
