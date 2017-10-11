@@ -23,7 +23,7 @@
   </header>
   <section class="main-title">
     <h1>Frontend it's a hobby</h1>
-    <h2>{{ it's an addiction }}</h2>
+    <h2><span class="curly">{{</span> it's an addiction <span class="curly">}}</span></h2>
   </section>
 </div>
 </body>

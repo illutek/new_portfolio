@@ -4,14 +4,8 @@
 
 .even-container {
   background: $summits-even-bcg;
-  color: $main-text;
-  h1, h2, a {
-    color: $main-text;
+  h1, h2, p, a {
+    color: set-color-text($summits-even-bcg);
   }
 }
 
-//.summit-discription-wrap {
-//  &:after {
-//    background: set-color-text($main-text);
-//  }
-//}
