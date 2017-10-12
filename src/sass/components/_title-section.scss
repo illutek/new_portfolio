@@ -8,16 +8,38 @@
   align-self: center;
 }
 
+.curl-font {
+  font-family: $font-sub-title;
+  font-weight: $f-weight-100;
+}
+
 h2 {
   &.curly {
-    font-family: 'Roboto', sans-serif;
     &:before {
+      @extend .curl-font;
       content: '{{';
       margin-right: 5px;
     }
     &:after {
+      @extend .curl-font;
       content: '}}';
       margin-left: 5px;
     }
   }
 }
+
+// The css style
+// ========================
+
+//h2.curly:before {
+//  font-family: 'Roboto', sans-serif;
+//  font-weight: 100;
+//  content: '{{';
+//  margin-right: 5px;
+//}
+//h2.curly:after {
+//  font-family: 'Roboto', sans-serif;
+//  font-weight: 100;
+//  content: '}}';
+//  margin-left: 5px;
+//}

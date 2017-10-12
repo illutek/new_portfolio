@@ -2,27 +2,29 @@
 // @@ VARIABLES
 // ////////////////////////
 
-//$fa-font-path:        "../bower_components/font-awesome/fonts" !default;
 
-$main-text: rgba(255, 255, 255, 0.8);
-$menu-color: rgba(255, 255, 255, 0.4);
+
+// BCG colors
 $front-page-bcg: #3E93A7;
 $summits-front-bcg: #B9539F;
 $summits-odd-bcg: #E3D9E1;
 $summits-even-bcg: $summits-front-bcg;
-
-
 $aboutme-bcg: #A5CD39;
-
 $contactme-bcg: #F1D02D;
 
 // Font vars
 $font: 'Raleway', sans-serif;
+$font-sub-title: 'Roboto', sans-serif;
+$f-weight-100: 100;
 $f-weight-200: 200;
 $f-weight-300: 300;
 $f-weight-400: 400;
 $f-size: 17px;
 
+// Font colors
+$main-text: rgba(255, 255, 255, 0.8);
+$menu-color: rgba(255, 255, 255, 0.3);
+$menu-color-hover: rgba(255, 255, 255, 0.5);
 $f-color-odd: $summits-front-bcg;
 $color-odd: $summits-front-bcg;
 $f-color-odd-d: darken($f-color-odd, 20%);

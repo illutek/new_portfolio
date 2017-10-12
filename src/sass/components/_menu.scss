@@ -8,8 +8,11 @@
 
 .menu-show-btn {
   display: block;
-  color: $main-text;
+  color: $menu-color;
   cursor: pointer;
+  &:hover {
+    color: $menu-color-hover;
+  }
   &.hidden {
     display: none;
   }
@@ -28,6 +31,9 @@
     a {
       text-decoration: none;
       color: $main-text;
+      &:hover {
+        color: $menu-color-hover;
+      }
     }
   }
   &.menu-visible {

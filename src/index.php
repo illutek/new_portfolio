@@ -8,19 +8,7 @@
 </head>
 <body class="home">
 <div class="container">
-  <header>
-
-    <div class="firm-name-wrap">
-      <div class="firm-name">illutek</div>
-    </div>
-
-    <div class="menu-wrap">
-      <div class="menu-show-btn">
-        MENU
-      </div>
-      <?php include_once "partical/menu.inc.php"; ?>
-    </div>
-  </header>
+  <?php include_once "partical/header.inc.php"; ?>
   <section class="main-title">
     <h1>Frontend it's a hobby</h1>
     <h2 class="curly">it's an addiction</h2>

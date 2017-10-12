@@ -13,10 +13,14 @@
 }
 
 .firm-name {
-  color: $main-text;
+  color: $menu-color;
   a {
-    color: $main-text;
+    color: $menu-color;
     text-decoration: none;
+    cursor: pointer;
+    &:hover {
+      color: $menu-color-hover;
+    }
   }
 
 }
