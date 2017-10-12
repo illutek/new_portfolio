@@ -3,6 +3,40 @@
 //================================
 
 .arrow {
-  justify-self: center;
-  //align-content: end;
+  height: 25px;
+  width:30px;
+  margin: 0 auto;
+  &::before, &::after {
+    content: '';
+    display: block;
+    height: 1px;
+    width: 30px;
+    // background: white;
+    // background-color with function set-color-text
+    // on relevant sections color of the arrow is than
+    // dependent of the background-color of the section
+  }
 }
+
+.arrow {
+  &.arrow-down {
+    &::before {
+      transform: translateY(10px) translateX(-10px) rotate(45deg);
+    }
+    &::after {
+      transform: translateY(10px) translateX(10px) rotate(135deg);
+    }
+  }
+}
+
+.arrow {
+  &.arrow-up {
+    &::before {
+      transform: translateY(10px) translateX(-10px) rotate(135deg);
+    }
+    &::after {
+      transform: translateY(10px) translateX(10px) rotate(45deg);
+    }
+  }
+}
+

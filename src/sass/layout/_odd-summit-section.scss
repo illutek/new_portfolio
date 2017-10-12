@@ -7,4 +7,15 @@
   h1, h2, p, a {
     color: set-color-text($summits-odd-bcg);
   }
+  .arrow-up {
+    &::before, &::after {
+      background: set-color-text($summits-odd-bcg);
+    }
+  }
+  .arrow-down {
+    &::before, &::after {
+      background: set-color-text($summits-odd-bcg);
+    }
+  }
 }
+

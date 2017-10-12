@@ -14,9 +14,10 @@
     <h1>SUMMITS</h1>
     <h2 class="curly">Limited selection</h2>
   </section>
-  <div class="arrow arrow-down">
-    <a href="#one"><img src="images/white-arrow-down.png" alt="arrow down"></a>
-  </div>
+
+  <a href="#one">
+    <div class="arrow arrow-down"></div>
+  </a>
 </div>
 
 
@@ -31,15 +32,16 @@ SUMMIT ONE
 <div id="one"></div>
 
 <section class="summit-section odd-container">
-  <div class="arrow arrow-up">
-    <a href="#summit-top"><img src="images/odd-arrow-up.png" alt="arrow up"></a>
-  </div>
+  <a href="#summit-top">
+    <div class="arrow arrow-up"></div>
+  </a>
 
     <?php include_once "partical/1.inc.php"; ?>
 
-  <div class="arrow arrow-down">
-    <a href="#two"><img src="images/odd-arrow-down.png" alt="arrow down"></a>
-  </div>
+  <a href="#two">
+    <div class="arrow arrow-down"></div>
+  </a>
+
 </section>
 
 <!-- ---------------------------------
@@ -48,15 +50,15 @@ SUMMIT TWO
 <div id="two"></div>
 
 <section class="summit-section even-container">
-  <div class="arrow arrow-up">
-    <a href="#one"><img src="images/white-arrow-up.png" alt="arrow up"></a>
-  </div>
+  <a href="#one">
+    <div class="arrow arrow-up"></div>
+  </a>
 
     <?php include_once "partical/even.inc.php"; ?>
 
-  <div class="arrow arrow-down">
-    <a href="#three"><img src="images/white-arrow-down.png" alt="arrow down"></a>
-  </div>
+  <a href="#three">
+    <div class="arrow arrow-down"></div>
+  </a>
 </section>
 
 <!-- ---------------------------------
@@ -65,15 +67,15 @@ SUMMIT THREE
 <div id="three"></div>
 
 <section class="summit-section odd-container">
-  <div class="arrow arrow-up">
-    <a href="#two"><img src="images/odd-arrow-up.png" alt="arrow up"></a>
-  </div>
+  <a href="#two">
+    <div class="arrow arrow-up"></div>
+  </a>
 
     <?php //include_once "partical/3.inc.php"; ?>
 
-  <div class="arrow arrow-down">
-    <a href="#four"><img src="images/odd-arrow-down.png" alt="arrow down"></a>
-  </div>
+  <a href="#four">
+    <div class="arrow-down"></div>
+  </a>
 </section>
 
 <!-- ---------------------------------
@@ -82,15 +84,14 @@ SUMMIT THREE
 <div id="four"></div>
 
 <section class="summit-section even-container">
-  <div class="arrow arrow-up">
-    <a href="#three"><img src="images/white-arrow-up.png" alt="arrow up"></a>
-  </div>
+  <a href="#three">
+    <div class="arrow arrow-up"></div>
+  </a>
 
     <?php //include_once "partical/4.inc.php"; ?>
 
-  <div class="arrow arrow-down">
-<!--    <a href="#five"><img src="images/with-arrow-down.png" alt="arrow down"></a>-->
-  </div>
+  <!--  <a href="#five"><div class="arrow-down"></div></a>-->
+</section>
 
 
 </body>
