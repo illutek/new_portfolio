@@ -13,10 +13,10 @@
     <h1>Spitfireclub</h1>
     <h2><a href="https://www.spitfireclub-vlaanderen.be/">www.spitfireclub-vlaanderen.be</a></h2>
     <p>Een Drupal8 theme</p>
-    <p>Een eindwerk voor het cvo in Heusden-Zolder <a href="http://www.cvodeverdieping.be">www.cvodeverdieping.be</a>
-    </p>
+    <p>Een eindwerk voor het cvo in Heusden-Zolder </p>
     <p>In opdracht van Koen Timmers <a href="https://www.zelfstudie.be">www.zelfstudie.be</a>
     </p>
+    <a href="https://github.com/illutek/spitfireclub-newsite" class="github">Github</a>
 
   </div>
 
@@ -27,7 +27,7 @@
     <img src="images/gulp.png" alt="gulp">
     <img src="images/bower.png" alt="bower">
     <img src="images/drupal8.png" alt="Drupal8">
-<!--    <img src="images/drupal7.png" alt="Drupal7">-->
+    <?php //<img src="images/drupal7.png" alt="Drupal7"> ?>
 
   </div>
 

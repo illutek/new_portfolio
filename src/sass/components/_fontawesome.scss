@@ -18,3 +18,19 @@
   }
 }
 
+.github {
+  &:before {
+    @extend .icon;
+    font-size: 1rem;
+    content: '\f09b';
+  }
+}
+
+.external {
+  &:after {
+    @extend .icon;
+    padding-right: 0;
+    padding-left: 5px;
+    content: '\f08e';
+  }
+}

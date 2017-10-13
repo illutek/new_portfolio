@@ -8,7 +8,7 @@
   display: grid;
   grid-template-columns: auto;
   grid-template-rows: 20px auto 1fr 23px;
-  h1, h2 {
+  h1 {
     margin-top: 20px;
   }
   h2 {
@@ -24,8 +24,11 @@
   }
   a {
     text-decoration: none;
-    &:before {
-      @extend .url-icon;
+    &:after {
+      @extend .external;
+    }
+    &:hover {
+      text-decoration: underline;
     }
   }
 }

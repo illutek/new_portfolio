@@ -21,10 +21,10 @@
 .arrow {
   &.arrow-down {
     &::before {
-      transform: translateY(10px) translateX(-10px) rotate(45deg);
+      transform: translateY(13px) translateX(-11px) rotate(45deg);
     }
     &::after {
-      transform: translateY(10px) translateX(10px) rotate(135deg);
+      transform: translateY(12px) translateX(10px) rotate(135deg);
     }
   }
 }
@@ -32,7 +32,7 @@
 .arrow {
   &.arrow-up {
     &::before {
-      transform: translateY(10px) translateX(-10px) rotate(135deg);
+      transform: translateY(10px) translateX(-11px) rotate(135deg);
     }
     &::after {
       transform: translateY(10px) translateX(10px) rotate(45deg);
