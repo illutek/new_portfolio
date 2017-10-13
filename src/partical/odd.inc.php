@@ -19,15 +19,18 @@
 
     </div>
 
-    <div class="summit-icons-wrap">
-
-      <!-- Icons of used technology here -->
-      <img src="images/sass.png" alt="sass">
-      <img src="images/gulp.png" alt="gulp">
-      <img src="images/bower.png" alt="bower">
-      <img src="images/drupal8.png" alt="Drupal8">
-      <img src="images/drupal7.png" alt="Drupal7">
-
+    <div class="technology-wrap">
+      <div class="summit-icons-wrap">
+        <!-- Icons of used technology here -->
+        <img src="images/sass.png" alt="sass">
+        <img src="images/gulp.png" alt="gulp">
+        <img src="images/bower.png" alt="bower">
+        <img src="images/drupal8.png" alt="Drupal8">
+          <?php //<img src="images/drupal7.png" alt="Drupal7"> ?>
+      </div>
+      <div class="github-wrap">
+        <a href="https://github.com/illutek/" class="github"></a>
+      </div>
     </div>
 
   </div>

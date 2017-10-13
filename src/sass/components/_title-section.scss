@@ -3,10 +3,13 @@
 // @@ For all the pages
 //================================
 
-.main-title {
-  justify-self: center;
-  align-self: center;
+@supports (display: grid) {
+  .main-title {
+    justify-self: center;
+    align-self: center;
+  }
 }
+
 
 .curl-font {
   font-family: $font-sub-title;

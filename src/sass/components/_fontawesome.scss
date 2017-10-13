@@ -18,10 +18,19 @@
   }
 }
 
+.none {
+  &:before {
+    content: '';
+  }
+  &:after {
+    content: '';
+  }
+}
+
 .github {
   &:before {
     @extend .icon;
-    font-size: 1rem;
+    font-size: 1.7rem;
     content: '\f09b';
   }
 }

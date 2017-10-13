@@ -9,11 +9,10 @@
   <div class="summit-description">
 
     <!-- Description of project here -->
-    <h1>Title</h1>
+    <h1>Portfolio</h1>
     <h2>Subtitle</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis, rerum.</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias cupiditate dicta libero, molestiae obcaecati
-      perspiciatis! um dolor sit amet, consectetur adipisicing elit. Alias </p>
+    <p>Portfolio een mobile-first layout met css-grid, geen CMS een zuivere php zonder database.</p>
+
 
   </div>
 
@@ -27,7 +26,7 @@
         <?php //<img src="images/drupal7.png" alt="Drupal7"> ?>
     </div>
     <div class="github-wrap">
-      <a href="https://github.com/illutek/" class="github"></a>
+      <a href="https://github.com/illutek/new_portfolio" class="github"></a>
     </div>
   </div>
 
@@ -36,6 +35,6 @@
 <div class="summit-images-wrap">
 
   <!-- Image of project here -->
-  <img src="images/cityMobile-640W.jpg" alt="test">
+  <img src="images/projects/portfolio.png" alt="Portfolio illutek">
 
 </div>

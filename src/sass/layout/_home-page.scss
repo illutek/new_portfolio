@@ -5,11 +5,15 @@
 body {
   &.home {
     background: $front-page-bcg;
-    .container {
-      display: grid;
-      grid-template-columns: 1fr;
-      grid-template-rows: 50px auto;
-      min-height: 100vh;
+    @supports (display: grid) {
+      .container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 50px auto;
+      }
+      .container {
+        min-height: 100vh;
+      }
     }
   }
 }

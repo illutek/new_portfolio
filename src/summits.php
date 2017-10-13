@@ -54,7 +54,7 @@ SUMMIT TWO
     <div class="arrow arrow-up"></div>
   </a>
 
-    <?php include_once "partical/even.inc.php"; ?>
+    <?php include_once "partical/2.inc.php"; ?>
 
   <a href="#three">
     <div class="arrow arrow-down"></div>
