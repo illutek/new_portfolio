@@ -2,8 +2,10 @@
 // @@ ++ MENU
 //================================
 
-.menu-wrap {
-  justify-self: end;
+@supports (display: grid) {
+  .menu-wrap {
+    justify-self: end;
+  }
 }
 
 .menu-show-btn {
@@ -17,6 +19,7 @@
     display: none;
   }
 }
+
 .menu {
   display: none;
   li {
@@ -39,4 +42,33 @@
   &.menu-visible {
     display: block;
   }
+}
+
+// E from MENU to hamburger
+
+.bars {
+  content: '';
+  width: 12px;
+  height: 1px;
+  display: inline-block;
+  background: $menu-color;
+}
+
+.e-from-menu,
+.e-from-menu::before,
+.e-from-menu::after {
+  @extend .bars;
+}
+
+.e-from-menu {
+  margin-top: -19px;
+  transform: translateY(19px);
+}
+
+.e-from-menu::before {
+  transform: translateY(-8px);
+}
+
+.e-from-menu::after {
+  transform: translateY(-19px);
 }

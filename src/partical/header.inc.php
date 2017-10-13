@@ -14,8 +14,9 @@
   </div>
   <div class="menu-wrap">
     <div class="menu-show-btn">
-      MENU
+      M <span class="e-from-menu"></span> NU
     </div>
+
       <?php include_once "partical/menu.inc.php"; ?>
   </div>
 </header>
