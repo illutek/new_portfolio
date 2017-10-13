@@ -12,6 +12,7 @@
   display: block;
   color: $menu-color;
   cursor: pointer;
+  transition: 0.3s;
   &:hover {
     color: $menu-color-hover;
   }
@@ -46,29 +47,35 @@
 
 // E from MENU to hamburger
 
-.bars {
-  content: '';
+.line-group {
+  position: relative;
   width: 12px;
+  height: 15px;
+  float: left;
+  margin: 0 2px;
+}
+.line {
+  position: absolute;
+  width: 100%;
   height: 1px;
-  display: inline-block;
   background: $menu-color;
+  display: block;
+  transition: 0.5s;
 }
 
-.e-from-menu,
-.e-from-menu::before,
-.e-from-menu::after {
-  @extend .bars;
+.line-top {
+  margin-top: 3px;
+}
+.line-midle {
+  margin-top: 8px;
+  width: 50%;
+}
+.line-bottom {
+  margin-top: 13px;
+  width: 75%;
 }
 
-.e-from-menu {
-  margin-top: -19px;
-  transform: translateY(19px);
-}
-
-.e-from-menu::before {
-  transform: translateY(-8px);
-}
-
-.e-from-menu::after {
-  transform: translateY(-19px);
+.menu-show-btn:hover .line {
+  background: $menu-color-hover;
+  width: 100%;
 }
